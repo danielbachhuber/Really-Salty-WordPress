@@ -8,3 +8,4 @@ if [ ! -d  "$DIR/../../wp-cli" ]; then
 fi
 
 ln -sf $DIR/Customfile $DIR/../../Customfile
+sudo ln -sf $DIR/wp.sh /usr/bin/wp

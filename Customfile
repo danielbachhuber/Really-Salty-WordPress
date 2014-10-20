@@ -1,0 +1,2 @@
+# Easier WP-CLI dev
+config.vm.synced_folder "wp-cli", "/home/vagrant/.wp-cli"

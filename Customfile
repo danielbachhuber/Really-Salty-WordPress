@@ -1,4 +1,7 @@
 # Easier WP-CLI dev
 config.vm.synced_folder "wp-cli", "/home/vagrant/.wp-cli"
 
+# Pantheon CLI
+config.vm.synced_folder "pantheon-cli", "/home/vagrant/.pantheon-cli"
+
 config.vm.provision :shell, :path => File.join( "projects", "really-salty-wordpress", "provision.sh" ) 
